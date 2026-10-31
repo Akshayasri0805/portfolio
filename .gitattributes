@@ -78,6 +78,11 @@
 *.ttf                filter=lfs diff=lfs merge=lfs -text
 *.otf                filter=lfs diff=lfs merge=lfs -text
 *.woff               filter=lfs diff=lfs merge=lfs -text
+
+# Public website assets must be committed as regular files so Vercel can serve them.
+public/*.png         -filter -diff -merge
+public/*.jpg         -filter -diff -merge
+public/*.jpeg        -filter -diff -merge
 *.woff2              filter=lfs diff=lfs merge=lfs -text
 *.eot                filter=lfs diff=lfs merge=lfs -text
 
