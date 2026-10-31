@@ -1,0 +1,14 @@
+{
+  "title": "Akshaya Sri Portfolio",
+  "description": "This web application offers an immersive user experience with a visually stunning interface, allowing users to easily navigate and submit forms seamlessly.",
+  "icons": {
+    "icon": "/profile-favicon.jpeg"
+  },
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
