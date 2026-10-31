@@ -1,7 +1,4 @@
 import { portfolioLinks } from "./links";
-import euclidImage from "../../images/euclid.png";
-import ruchiImage from "../../images/ruchi.png";
-import bankOfBarodaImage from "../../images/bank-of-baroda.jpeg";
 
 export const projects = [
   {
@@ -9,7 +6,7 @@ export const projects = [
     slug: "euclid",
     title: "Euclid",
     category: "Scientific CAD Platform",
-    image: euclidImage,
+    image: "/images/euclid.png",
     imageFit: "contain",
     naturalAspect: true,
     year: "2025—26",
@@ -30,7 +27,7 @@ export const projects = [
     slug: "ruchi",
     title: "Ruchi",
     category: "AI Conversational Product",
-    image: ruchiImage,
+    image: "/images/ruchi.png",
     year: "2025—26",
     client: "Aegion Dynamic Solutions",
     role: "Interaction & Product Design",
@@ -49,7 +46,7 @@ export const projects = [
     slug: "bank-of-baroda",
     title: "Bank of Baroda",
     category: "UX Audit & Usability Analysis",
-    image: bankOfBarodaImage,
+    image: "/images/bank-of-baroda.jpeg",
     imageFit: "contain",
     naturalAspect: true,
     year: "2024—25",
