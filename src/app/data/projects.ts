@@ -1,7 +1,7 @@
 import { portfolioLinks } from "./links";
-import euclidImage from "../../images/Euclid.png";
-import ruchiImage from "../../images/Ruchi.png";
-import bankOfBarodaImage from "../../images/Bank of baroda.jpeg";
+import euclidImage from "../../images/euclid.png";
+import ruchiImage from "../../images/ruchi.png";
+import bankOfBarodaImage from "../../images/bank-of-baroda.jpeg";
 
 export const projects = [
   {
